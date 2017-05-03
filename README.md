@@ -10,6 +10,7 @@
 - [Import](importando.py)
 - [Utilizando `namedtuple`](vetor_tupla.py)
   - [Teste](test_vetor_tupla.py)
+- [Interagindo com o systema](linux.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
