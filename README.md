@@ -41,15 +41,22 @@
 ## Mais informações
 
 ###Download
+
 - https://www.python.org/downloads/
+
 ###Ambiente Virtual
+
 - http://docs.python-guide.org/en/latest/dev/virtualenvs/
 - https://wiki.archlinux.org/index.php/Python/Virtual_environment
+
 ###Informações
+
 - Grupy-Sanca: https://github.com/grupy-sanca/curso-python-intro
 - Opensanca: https://github.com/opensanca/trilha-python
 - Django Girls: https://tutorial.djangogirls.org/en/
 - Python Docs: https://docs.python.org/3/
+
 ###Aprendendo sozinho
+
 - http://www.learnpython.org/
 - https://wiki.python.org/moin/BeginnersGuide
