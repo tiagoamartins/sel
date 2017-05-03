@@ -17,6 +17,7 @@
 - [Exceções](exceptions.py)
 - [Decoradores](decorators.py)
 - [Criação de bases de dados SQLite](create_db.py)
+- [Utilizando a `map`](vetor_n.py)
 
 ## Flask
 - [Hello world](flask/hello_world.py)
