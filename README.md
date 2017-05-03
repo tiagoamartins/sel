@@ -2,6 +2,7 @@
 
 - [Listas](lista.py)
 - [Funções](funcoes.py)
+- [Import](importando.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
