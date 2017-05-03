@@ -35,6 +35,7 @@
 - [Cookies](flask/cookies.py)
 - [Sessões](flask/session.py)
 - [Redirecionamento de URL](flask/redirect.py)
+- [Flash de mensagens](flask/flash_msg.py)
 - [Upload de arquivos](flask/upload.py)
 - [Utilizando bases de dados](flask/sqlite.py)
 
