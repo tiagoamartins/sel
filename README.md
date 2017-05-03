@@ -5,6 +5,7 @@
 - [Argumentos](argumentos.py)
 - [Utilizando biblioteca `math`](matematica/aritmetica.py)
 - [Import](importando.py)
+- [Utilizando `namedtuple`](vetor_tupla.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
