@@ -14,6 +14,7 @@
 - [Fábricas de dados](fabrica.py)
 - [Classes](vetor_classe.py)
 - [Herança](classes.py)
+- [Exceções](exceptions.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
