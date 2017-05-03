@@ -12,6 +12,7 @@
   - [Teste](test_vetor_tupla.py)
 - [Interagindo com o systema](linux.py)
 - [Fábricas de dados](fabrica.py)
+- [Classes](vetor_classe.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
