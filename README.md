@@ -3,6 +3,7 @@
 - [Listas](lista.py)
 - [Funções](funcoes.py)
 - [Argumentos](argumentos.py)
+- [Utilizando biblioteca `math`](matematica/aritmetica.py)
 - [Import](importando.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
