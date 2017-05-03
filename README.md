@@ -1,6 +1,7 @@
 # Curso de python na SEL
 
 - [Listas](lista.py)
+- [Funções](funcoes.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
