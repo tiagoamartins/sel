@@ -15,6 +15,7 @@
 - [Classes](vetor_classe.py)
 - [Herança](classes.py)
 - [Exceções](exceptions.py)
+- [Decoradores](decorators.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
