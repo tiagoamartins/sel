@@ -11,6 +11,7 @@
 - [Utilizando `namedtuple`](vetor_tupla.py)
   - [Teste](test_vetor_tupla.py)
 - [Interagindo com o systema](linux.py)
+- [Fábricas de dados](fabrica.py)
 - [Criação de bases de dados SQLite](create_db.py)
 
 ## Flask
