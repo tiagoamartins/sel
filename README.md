@@ -2,6 +2,8 @@
 
 - [Listas](lista.py)
 - [Funções](funcoes.py)
+- [Atribuições Multiplas](fibonacci.py)
+  - [Teste](test_fibonacci.py)
 - [Dicionários](food.py)
 - [Argumentos](argumentos.py)
 - [Utilizando biblioteca `math`](matematica/aritmetica.py)
