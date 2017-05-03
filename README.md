@@ -2,6 +2,7 @@
 
 - [Listas](lista.py)
 - [Funções](funcoes.py)
+- [Dicionários](food.py)
 - [Argumentos](argumentos.py)
 - [Utilizando biblioteca `math`](matematica/aritmetica.py)
 - [Import](importando.py)
