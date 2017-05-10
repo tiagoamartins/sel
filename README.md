@@ -6,7 +6,7 @@
   - [Teste](test_fibonacci.py)
 - [Dicionários](food.py)
 - [Argumentos](argumentos.py)
-- [Utilizando biblioteca `math`](matematica/aritmetica.py)
+- [Utilizando biblioteca `math`](mod_dir/arith.py)
 - [Import](importando.py)
 - [Utilizando `namedtuple`](vetor_tupla.py)
   - [Teste](test_vetor_tupla.py)
