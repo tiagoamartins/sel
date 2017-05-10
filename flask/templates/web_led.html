@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Current Status</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<h1>My DIY project</h1>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">Device Listing and Status</div>
+						<div class="panel-body">
+							<ul class="list-group">
+								<form action="/" method="post">
+									{% for name, pin in pins.items() %}
+									<li class="list-group-item">
+										<h3>The {{name}} is currently
+											{% if pin.is_lit() == True %}
+											<span class="label label-success">on</span>
+											<button type="submit" name="{{name|replace(" ", "_")}}" value="off" class="btn btn-primary">Turn off</button>
+											{% else %}
+											<span class="label label-danger">off</span>
+											<button type="submit" name="{{name|replace(" ", "_")}}" value="on" class="btn btn-primary">Turn on</button>
+											{% endif %}
+										</h3>
+									</li>
+									{% endfor %}
+								</form>
+							</ul>
+							{% if message %}
+							<div class="alert alert-info" role="alert">{{ message }}</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
