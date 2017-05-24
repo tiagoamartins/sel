@@ -1,4 +1,13 @@
+"""
+Demostração da utilização de decoradores para alteração da
+funcionalidade de funções em Python.
+"""
+
+
 def make_pretty(func):
+    """
+    Decorador que imprime "I got decorated" antes da função decorada
+    """
     def inner():
         print("I got decorated")
         func()
@@ -16,6 +25,10 @@ def ordinary():
 
 
 def star(func):
+    """
+    Função decoradora que imprime 30 vezes o caractér '*' antes e depois
+    da execução da função decorada
+    """
     def inner(*args, **kwargs):
         print("*" * 30)
         func(*args, **kwargs)
@@ -24,6 +37,10 @@ def star(func):
 
 
 def percent(func):
+    """
+    Função decoradora que imprime 30 vezes o caractér '%' antes e depois
+    da execução da função decorada
+    """
     def inner(*args, **kwargs):
         print("%" * 30)
         func(*args, **kwargs)
@@ -34,7 +51,14 @@ def percent(func):
 @star
 @percent
 def printer(msg):
+    """
+    A utilização dessa função faz com que a mensagem seja decorada
+    com linhas de '*' e '%' antes e depois da mensagem, como no exemplo:
+        >>> printer("Hello")
+        ******************************
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        Hello
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        ******************************
+    """
     print(msg)
-
-
-printer("Hello")
