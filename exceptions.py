@@ -34,11 +34,8 @@ Algum tipo está errado
 <class 'KeyError'>
 ('chave',)
 'chave'
+
+>>> class NetworkNotFoundError(Exception):
+>>>     pass
+>>> raise NetworkNotFoundError
 """
-
-
-class NetworkNotFoundError(Exception):
-    pass
-
-
-raise NetworkNotFoundError
