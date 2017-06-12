@@ -1,3 +1,6 @@
+"""
+Exemplo de utilização de argumentos passados pelo sistema
+"""
 import sys
 
 if __name__ == '__main__':

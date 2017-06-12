@@ -1,3 +1,7 @@
+"""
+Exemplo de criação de um arquivo de banco de dados utilizando sqlite
+"""
+
 import sqlite3
 
 if __name__ == '__main__':
