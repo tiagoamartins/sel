@@ -2,7 +2,7 @@
 
 - [Listas](lista.py)
 - [Funções](funcoes.py)
-- [Atribuições Multiplas](fibonacci.py)
+- [Atribuições Múltiplas](fibonacci.py)
   - [Teste](test_fibonacci.py)
 - [Dicionários](food.py)
 - [Argumentos](argumentos.py)
