@@ -10,7 +10,7 @@
 - [Import](importando.py)
 - [Utilizando `namedtuple`](vetor_tupla.py)
   - [Teste](test_vetor_tupla.py)
-- [Interagindo com o systema](linux.py)
+- [Interagindo com o sistema](linux.py)
 - [Fábricas de dados](fabrica.py)
 - [Classes](vetor_classe.py)
 - [Herança](classes.py)
