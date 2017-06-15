@@ -1,15 +1,17 @@
 Argumentos de funções
 =====================
 
+Objetivo é mostrar a utilização de um número não fixo de argumentos.
+O argumento 'numeros' é uma tupla que recebe do terceiro argumento
+em diante.
+
+O desempacotamento de tuplas/listas como argumentos também é possível
+e durante a expansão os dois primeiros argumentos serão colocados em
+'a' e 'b' e o resto em 'numeros'.
+
 .. function:: soma(a, b, \*numeros)
 
    Função que soma dois ou mais números.
-   Objetivo é mostrar a utilização de um número não fixo de argumentos.
-   O argumento 'numeros' é uma tupla que recebe do terceiro argumento
-   em diante.
-   O desempacotamento de tuplas/listas como argumentos também é possível
-   e durante a expansão os dois primeiros argumentos serão colocados em
-   'a' e 'b' e o resto em 'numeros'.
 
    .. testcode::
 
@@ -36,11 +38,12 @@ Argumentos de funções
       >>> soma(*numeros)
       21
 
+Demonstra a utilização de argumentos posicionais e nomeados, bem como
+o desempacotamento de tuplas/listas e dicionários.
+
 .. function:: foo(a, b, c, \*args, \*\*kwargs)
 
    Função que imprime os diferentes argumentos e seus tipos.
-   Demonstra a utilização de argumentos posicionais e nomeados, bem como
-   o desempacotamento de tuplas/listas e dicionários.
 
    .. testcode::
 
