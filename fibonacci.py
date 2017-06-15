@@ -23,7 +23,7 @@ def fib2(n):   # return Fibonacci series up to n
 
     >>> fib2(10)
     [1, 1, 2, 3, 5, 8]
-    >>> fib(-1)
+    >>> fib2(-1)
     []
     """
     result = []

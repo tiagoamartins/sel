@@ -2,7 +2,7 @@
 >>> from random import randint
 >>> lista_vetores = [Vetor(x=randint(-10, 10), y=randint(-10, 10)) for _ in range(5)]
 >>> for x, y in lista_vetores:
-...     print(x, y)
+...     print(x, y) # doctest: +SKIP
 """
 import math
 from numbers import Real

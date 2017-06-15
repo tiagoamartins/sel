@@ -23,7 +23,6 @@ Erro: tem que ver isso daí
 ...     print('Algum tipo está errado')
 Algum tipo está errado
 
-
 >>> a = {}
 >>> try:
 ...     print(a['chave'])
@@ -36,6 +35,9 @@ Algum tipo está errado
 'chave'
 
 >>> class NetworkNotFoundError(Exception):
->>>     pass
->>> raise NetworkNotFoundError
+...     pass
+>>> raise NetworkNotFoundError  # doctest: +IGNORE_EXCEPTION_DETAIL
+Traceback (most recent call last):
+    ...
+NetworkNotFoundError
 """
