@@ -12,13 +12,13 @@ Básico
 - `Listas <lista.py>`_
 - `Funções <funcoes.py>`_
 - `Atribuições Múltiplas <fibonacci.py>`_
-   - `Teste <test_fibobacci.py>`_
+   - |test_fib|_
 - `Dicionários <food.py>`_
 - `Argumentos <argumentos.py>`_
 - |math_lib|_
 - `Import <importando.py>`_
 - |using_namedtuple|_
-   - `Teste <test_vetor_tupla.py>`_
+   - |test_namedtuple|_
 - `Interagindo com o sistema <linux.py>`_
 - `Fábricas de dados <fabrica.py>`_
 - `Classes <vetor_classe.py>`_
@@ -28,11 +28,17 @@ Básico
 - `Criação de bases de dados SQLite <create_db.py>`_
 - |using_map|_
 
+.. |test_fib| replace:: Teste
+.. _test_fib: test_fibobacci.py
+
 .. |math_lib| replace:: Utilizando a biblioteca `math`
 .. _math_lib: mod_dir/arith.py
 
 .. |using_namedtuple| replace:: Utilizando `namedtuple`
 .. _using_namedtuple: vetor_tupla.py
+
+.. |test_namedtuple| replace:: Teste
+.. _test_namedtuple: test_vetor_tupla.py
 
 .. |using_map| replace:: Utilizando a `map`
 .. _using_map: vetor_n.py
