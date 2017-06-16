@@ -15,9 +15,9 @@ Básico
    - `Teste <test_fibobacci.py>`_
 - `Dicionários <food.py>`_
 - `Argumentos <argumentos.py>`_
-- `Utilizando a biblioteca \`math\` <mod_dir/arith.py>`_
+- |math_lib|_
 - `Import <importando.py>`_
-- `Utilizando \`namedtuple\` <vetor_tupla.py>`_
+- |using_namedtuple|_
    - `Teste <test_vetor_tupla.py>`_
 - `Interagindo com o sistema <linux.py>`_
 - `Fábricas de dados <fabrica.py>`_
@@ -26,7 +26,16 @@ Básico
 - `Exceções <exceptions.py>`_
 - `Decoradores <decorators.py>`_
 - `Criação de bases de dados SQLite <create_db.py>`_
-- `Utilizando a \`map\` <vetor_n.py>`_
+- |using_map|_
+
+.. |math_lib| replace:: Utilizando a biblioteca `math`
+.. _math_lib: mod_dir/arith.py
+
+.. |using_namedtuple| replace:: Utilizando `namedtuple`
+.. _using_namedtuple: vetor_tupla.py
+
+.. |using_map| replace:: Utilizando a `map`
+.. _using_map: vetor_n.py
 
 Flask
 =====
