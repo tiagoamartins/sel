@@ -11,8 +11,7 @@ Básico
 
 - `Listas <docs/lists.rst>`_
 - `Funções <docs/functions.rst>`_
-- `Atribuições Múltiplas <fibonacci.py>`_
-   - |test_fib|_
+- `Atribuições Múltiplas <docs/attribution.rst>`_
 - `Dicionários <food.py>`_
 - `Argumentos <argumentos.py>`_
 - |math_lib|_
@@ -27,9 +26,6 @@ Básico
 - `Decoradores <decorators.py>`_
 - `Criação de bases de dados SQLite <create_db.py>`_
 - |using_map|_
-
-.. |test_fib| replace:: Teste
-.. _test_fib: test_fibobacci.py
 
 .. |math_lib| replace:: Utilizando a biblioteca `math`
 .. _math_lib: mod_dir/arith.py
