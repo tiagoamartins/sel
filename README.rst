@@ -13,7 +13,7 @@ Básico
 - `Funções <docs/functions.rst>`_
 - `Atribuições Múltiplas <docs/attribution.rst>`_
 - `Dicionários <docs/dictionary.rst>`_
-- `Argumentos <argumentos.py>`_
+- `Argumentos <docs/arguments.rst>`_
 - |math_lib|_
 - `Import <importando.py>`_
 - |using_namedtuple|_
