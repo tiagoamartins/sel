@@ -5,7 +5,7 @@ Objetivo é mostrar a utilização de um número não fixo de argumentos.
 O argumento 'numeros' é uma tupla que recebe do terceiro argumento
 em diante.
 
-O desempacotamento de tuplas/listas como argumentos também é possível
+O desempacotamento de tuplas/:ref:`listas <list>` como argumentos também é possível
 e durante a expansão os dois primeiros argumentos serão colocados em
 'a' e 'b' e o resto em 'numeros'.
 
@@ -27,13 +27,17 @@ e durante a expansão os dois primeiros argumentos serão colocados em
 
       >>> soma(1, 2)
       3
+
       >>> soma(1, 2, 3)
       6
+
       >>> soma(1, 2, 3, 4)
       10
+
       >>> numeros = [3, 4, 5]
       >>> soma(1, 2, *numeros)
       15
+
       >>> numeros = [1, 2, 3, 4, 5, 6]
       >>> soma(*numeros)
       21
@@ -64,6 +68,7 @@ o desempacotamento de tuplas/listas e dicionários.
       c: 3 <class 'int'>
       args: (4, 5) <class 'tuple'>
       kwargs: {'nome': 'Jose', 'idade': 100, 'vivo': True} <class 'dict'>
+
       >>> my_tuple = (2, 3)
       >>> my_dict = {'idade': 100, 'vivo': True}
       >>> foo(1, 4, 5, *my_tuple, nome='Jose', **my_dict)
