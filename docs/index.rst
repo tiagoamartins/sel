@@ -5,6 +5,7 @@ Curso de Python
    :maxdepth: 2
 
    lists
+   functions
    arguments
 
 Índice e tabelas

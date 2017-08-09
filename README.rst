@@ -10,7 +10,7 @@ Básico
 ======
 
 - `Listas <docs/lists.rst>`_
-- `Funções <funcoes.py>`_
+- `Funções <docs/functions.rst>`_
 - `Atribuições Múltiplas <fibonacci.py>`_
    - |test_fib|_
 - `Dicionários <food.py>`_
