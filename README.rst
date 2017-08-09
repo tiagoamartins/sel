@@ -12,7 +12,7 @@ Básico
 - `Listas <docs/lists.rst>`_
 - `Funções <docs/functions.rst>`_
 - `Atribuições Múltiplas <docs/attribution.rst>`_
-- `Dicionários <food.py>`_
+- `Dicionários <docs/dictionary.rst>`_
 - `Argumentos <argumentos.py>`_
 - |math_lib|_
 - `Import <importando.py>`_

@@ -7,6 +7,7 @@ Curso de Python
    lists
    functions
    attribution
+   dictionary
    arguments
 
 Índice e tabelas
