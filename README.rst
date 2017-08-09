@@ -9,7 +9,7 @@ Curso de python na SEL
 Básico
 ======
 
-- `Listas <lista.py>`_
+- `Listas <docs/lists.rst>`_
 - `Funções <funcoes.py>`_
 - `Atribuições Múltiplas <fibonacci.py>`_
    - |test_fib|_
