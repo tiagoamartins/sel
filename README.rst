@@ -18,7 +18,7 @@ Básico
 - `Import <docs/import.rst>`_
 - |using_namedtuple|_
 - `Interagindo com o sistema <docs/system.rst>`_
-- `Fábricas de dados <fabrica.py>`_
+- `Fábricas de dados <docs/factory.rst>`_
 - `Classes <vetor_classe.py>`_
 - `Herança <classes.py>`_
 - `Exceções <exceptions.py>`_

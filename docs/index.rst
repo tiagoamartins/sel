@@ -13,6 +13,7 @@ Curso de Python
    import
    named_tuple
    system
+   factory
 
 Índice e tabelas
 ================
