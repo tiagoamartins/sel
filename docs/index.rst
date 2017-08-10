@@ -14,6 +14,7 @@ Curso de Python
    named_tuple
    system
    factory
+   classes
 
 Índice e tabelas
 ================

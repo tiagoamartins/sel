@@ -19,7 +19,7 @@ Básico
 - |using_namedtuple|_
 - `Interagindo com o sistema <docs/system.rst>`_
 - `Fábricas de dados <docs/factory.rst>`_
-- `Classes <vetor_classe.py>`_
+- `Classes <docs/classes.rst>`_
 - `Herança <classes.py>`_
 - `Exceções <exceptions.py>`_
 - `Decoradores <decorators.py>`_
