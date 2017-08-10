@@ -9,6 +9,7 @@ Curso de Python
    attribution
    dictionary
    arguments
+   arithmetics
 
 Índice e tabelas
 ================
