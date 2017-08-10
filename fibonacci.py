@@ -10,6 +10,7 @@ def fib(n):   # return Fibonacci series up to n
     >>> fib(-1)
     []
     """
+
     result = []
     a, b = 0, 1
     while b < n:

@@ -44,19 +44,9 @@ Exemplo de uma função que exibe na tela a sequência de Fibonacci até n:
 Exemplo que retorna uma lista contendo os números da sequência de Fibonacci até
 n:
 
-.. testcode::
+.. literalinclude:: ../fibonacci.py
+   :lines: 4,14-19
 
-        def fib(n):   # return Fibonacci series up to n
-            result = []
-            a, b = 0, 1
-            while b < n:
-                result.append(b)
-                a, b = b, a+b
-            return result
-
-.. doctest::
-
-        >>> fib(10)
-        [1, 1, 2, 3, 5, 8]
-        >>> fib(-1)
-        []
+.. literalinclude:: ../fibonacci.py
+   :lines: 8-11
+   :dedent: 4
