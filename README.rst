@@ -15,7 +15,7 @@ Básico
 - `Dicionários <docs/dictionary.rst>`_
 - `Argumentos <docs/arguments.rst>`_
 - |math_lib|_
-- `Import <importando.py>`_
+- `Import <docs/import.rst>`_
 - |using_namedtuple|_
    - |test_namedtuple|_
 - `Interagindo com o sistema <linux.py>`_

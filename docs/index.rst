@@ -10,6 +10,7 @@ Curso de Python
    dictionary
    arguments
    arithmetics
+   import
 
 Índice e tabelas
 ================
