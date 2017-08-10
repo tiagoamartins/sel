@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from vetor_tupla import Vetor, soma_vetor, subtrai_vetor
+from tuple_vector import Vetor, soma_vetor, subtrai_vetor
 
 
 class TestaVetor(TestCase):
