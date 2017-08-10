@@ -17,7 +17,7 @@ Básico
 - |math_lib|_
 - `Import <docs/import.rst>`_
 - |using_namedtuple|_
-- `Interagindo com o sistema <linux.py>`_
+- `Interagindo com o sistema <docs/system.rst>`_
 - `Fábricas de dados <fabrica.py>`_
 - `Classes <vetor_classe.py>`_
 - `Herança <classes.py>`_

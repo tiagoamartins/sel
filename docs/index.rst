@@ -12,6 +12,7 @@ Curso de Python
    arithmetics
    import
    named_tuple
+   system
 
 Índice e tabelas
 ================
