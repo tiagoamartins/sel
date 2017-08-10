@@ -16,6 +16,7 @@ Curso de Python
    factory
    classes
    inheritance
+   exceptions
 
 Índice e tabelas
 ================
