@@ -33,7 +33,7 @@ Básico
 .. _using_namedtuple: docs/named_tuple.rst
 
 .. |using_map| replace:: Utilizando a `map`
-.. _using_map: vetor_n.py
+.. _using_map: docs/builtin.rst
 
 Flask
 =====

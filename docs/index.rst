@@ -19,6 +19,7 @@ Curso de Python
    exceptions
    decorators
    database
+   builtin
 
 Índice e tabelas
 ================
