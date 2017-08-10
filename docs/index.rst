@@ -18,6 +18,7 @@ Curso de Python
    inheritance
    exceptions
    decorators
+   database
 
 Índice e tabelas
 ================

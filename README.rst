@@ -23,7 +23,7 @@ Básico
 - `Herança <docs/inheritance.rst>`_
 - `Exceções <docs/exceptions.rst>`_
 - `Decoradores <docs/decorators.rst>`_
-- `Criação de bases de dados SQLite <create_db.py>`_
+- `Criação de bases de dados SQLite <docs/database.rst>`_
 - |using_map|_
 
 .. |math_lib| replace:: Utilizando a biblioteca `math`
