@@ -22,7 +22,7 @@ Básico
 - `Classes <docs/classes.rst>`_
 - `Herança <docs/inheritance.rst>`_
 - `Exceções <docs/exceptions.rst>`_
-- `Decoradores <decorators.py>`_
+- `Decoradores <docs/decorators.rst>`_
 - `Criação de bases de dados SQLite <create_db.py>`_
 - |using_map|_
 

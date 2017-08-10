@@ -17,6 +17,7 @@ Curso de Python
    classes
    inheritance
    exceptions
+   decorators
 
 Índice e tabelas
 ================
