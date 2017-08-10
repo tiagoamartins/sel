@@ -17,7 +17,6 @@ Básico
 - |math_lib|_
 - `Import <docs/import.rst>`_
 - |using_namedtuple|_
-   - |test_namedtuple|_
 - `Interagindo com o sistema <linux.py>`_
 - `Fábricas de dados <fabrica.py>`_
 - `Classes <vetor_classe.py>`_
@@ -31,10 +30,7 @@ Básico
 .. _math_lib: docs/arithmetics.rst
 
 .. |using_namedtuple| replace:: Utilizando `namedtuple`
-.. _using_namedtuple: vetor_tupla.py
-
-.. |test_namedtuple| replace:: Teste
-.. _test_namedtuple: test_vetor_tupla.py
+.. _using_namedtuple: docs/named_tuple.rst
 
 .. |using_map| replace:: Utilizando a `map`
 .. _using_map: vetor_n.py

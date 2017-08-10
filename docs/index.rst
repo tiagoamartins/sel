@@ -11,6 +11,7 @@ Curso de Python
    arguments
    arithmetics
    import
+   named_tuple
 
 Índice e tabelas
 ================
