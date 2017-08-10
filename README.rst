@@ -28,7 +28,7 @@ Básico
 - |using_map|_
 
 .. |math_lib| replace:: Utilizando a biblioteca `math`
-.. _math_lib: arithmetics/addition.py
+.. _math_lib: docs/arithmetics.rst
 
 .. |using_namedtuple| replace:: Utilizando `namedtuple`
 .. _using_namedtuple: vetor_tupla.py
