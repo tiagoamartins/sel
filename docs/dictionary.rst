@@ -11,8 +11,8 @@ Dicionários
 
 Esse exemplo serve para demonstrar a utilização de dicionários.
 A utilização dos colchetes [] para obtenção do elemento a partir da chave causa
-exceção 'KeyError' quando a chave não existe no dicionário.  Entretanto, a
-função 'get' do dicionário retorna 'None' e não causa exceção quando a chave
+exceção ``KeyError`` quando a chave não existe no dicionário.  Entretanto, a
+função ``get`` do dicionário retorna ``None`` e não causa exceção quando a chave
 buscada não é encontrada.
 
 .. testcode::
