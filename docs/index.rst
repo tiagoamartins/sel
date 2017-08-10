@@ -20,6 +20,7 @@ Curso de Python
    decorators
    database
    builtin
+   web/index
 
 Índice e tabelas
 ================
