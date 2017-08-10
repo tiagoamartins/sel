@@ -5,3 +5,6 @@ __pycache__/
 
 # Distribution / packaging
 env/
+
+# Sphinx documentation
+docs/build/
