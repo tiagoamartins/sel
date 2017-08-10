@@ -20,7 +20,7 @@ Básico
 - `Interagindo com o sistema <docs/system.rst>`_
 - `Fábricas de dados <docs/factory.rst>`_
 - `Classes <docs/classes.rst>`_
-- `Herança <classes.py>`_
+- `Herança <docs/inheritance.rst>`_
 - `Exceções <exceptions.py>`_
 - `Decoradores <decorators.py>`_
 - `Criação de bases de dados SQLite <create_db.py>`_

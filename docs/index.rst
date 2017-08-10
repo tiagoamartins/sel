@@ -15,6 +15,7 @@ Curso de Python
    system
    factory
    classes
+   inheritance
 
 Índice e tabelas
 ================
