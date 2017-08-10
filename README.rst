@@ -76,7 +76,7 @@ Ambiente Virtual
 Informações
 -----------
 
-- `Curso Introdutório - Grupy-Sanca <https://github.com/grupy-sanca/curso-python-intro>`_
+- `Curso Básico - Grupy-Sanca <https://github.com/grupy-sanca/curso-python-basico>`_
 - `Trilha Python - Opensanca <https://github.com/opensanca/trilha-python>`_
 - `Django Girls <https://tutorial.djangogirls.org/en/>`_
 - `Python Docs <https://docs.python.org/3/>`_
