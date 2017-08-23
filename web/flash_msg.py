@@ -5,7 +5,7 @@ app.secret_key = 'random string'
 
 @app.route('/')
 def index():
-    return render_template('index_flash.html')
+    return render_template('flash_index.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -19,7 +19,7 @@ def login():
         else:
             flash('You were successfully logged in')
             return redirect(url_for('index'))
-    return render_template('login_flash.html', error=error)
+    return render_template('flash_login.html', error=error)
 
 
 if __name__ == "__main__":
