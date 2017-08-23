@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block title %}About{% endblock %}
+{% set active_page = 'about' %}
+{% block content %}
+<div class="container">
+	<h1 class="my-4">{{ self.title() }}</h1>
+	<h2 class="my-4">People</h2>
+	<div class="row">
+		{% for member in team %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="card text-center mb-3">
+				<img class="card-img-top rounded-circle" src="{{ url_for('static', filename=member.photo) }}" alt="{{ member.name }}">
+				<div class="card-body">
+					<h4 class="card-title">{{ member.name }}</h4>
+					<h6 class="card-subtitle mb-2 text-muted">{{ member.job }}</h6>
+					<p class="card-text">{{ member.description }}</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}

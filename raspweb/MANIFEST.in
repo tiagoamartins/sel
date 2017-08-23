@@ -1,0 +1,3 @@
+graft raspweb/templates
+graft raspweb/static
+include raspweb/schema.sql
